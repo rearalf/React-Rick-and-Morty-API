@@ -1,6 +1,6 @@
 # React sin creat-react-app
 
-Cree este proyecto desde cero para practicar consumiendo la API de [The Rick and Morty API](https://rickandmortyapi.com/).
+Cree este proyecto desde cero para practicar como construir una sitio con React sin utilizar create-react-app. Consumiendo la API de [The Rick and Morty API](https://rickandmortyapi.com/).
 
 ## Para probarlo
 
