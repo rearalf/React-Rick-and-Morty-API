@@ -37,13 +37,19 @@ const Character = props => {
 									</p>
 									<p className="origin">
 										Origin:
-										<a href={character.origin.url}> {character.origin.name}</a>
+										<span> {character.origin.name}</span>
 									</p>
 								</div>
 							</div>
 						))}
 					</div>
-					{info.pages > 1 ? <Paginations nextPage={props.nextPage} prevPage={props.prevPage} page={props.page} /> : null}
+					{info.pages > 1 ? (
+						<Paginations
+							nextPage={props.nextPage}
+							prevPage={props.prevPage}
+							page={props.page}
+						/>
+					) : null}
 				</React.Fragment>
 			) : (
 				<React.Fragment>
