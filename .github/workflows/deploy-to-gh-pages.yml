@@ -17,8 +17,5 @@ jobs:
           npm install
           npm run-script build
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: pages-deploy
           FOLDER: dist
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@3.5.9
